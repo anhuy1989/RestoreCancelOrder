@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>folio3ecommerce+Folio3_RestoreCancelledOrder</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="www.folio3.com">Folio3 License</license>
+    <channel>64f8918f6f19780b88511d6cd6e3eb1e</channel>
+    <extends/>
+    <summary>Folio3 Restore Cancelled Order module gives the magento ecommerce website owner the ability to restore any accidentally canceled order.</summary>
+    <description>Folio3 Restore Cancelled Order module gives the magento ecommerce website owner the ability to restore any accidentally canceled order.</description>
+    <notes>Basic functionality completed.</notes>
+    <authors><author><name>Folio3</name><user>MAG003179920</user><email>ecommerce@folio3.com</email></author><author><name>Muhammad Shahab Hameed</name><user>MAG003513776</user><email>shameed@folio3.com</email></author></authors>
+    <date>2016-12-27</date>
+    <time>11:04:04</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Folio3_RestoreCancelledOrder.xml" hash="0227534b9a6be5139fbb5277dc9ea2bf"/></dir></target><target name="magecommunity"><dir name="Folio3"><dir name="RestoreCancelledOrder"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="View.php" hash="de20f7a712836b9beeeb5be73bc1d1c1"/></dir></dir></dir></dir><dir name="Model"><file name="Observer.php" hash="5fc0c174d420bdbb5d51708781e6b8ce"/><dir name="Resource"><dir name="Status"><file name="Collection.php" hash="a2ec26a6484c0fa4f4cb9f9719678179"/></dir><file name="Status.php" hash="cd74cdc69be57f67d2a1f2eed1890c80"/></dir><file name="Restore.php" hash="e8296a6f30710a4a6b7ee894a7883316"/><file name="Status.php" hash="208653c4ee775bb91d553884961204e9"/><dir name="System"><dir name="Config"><file name="Status.php" hash="b7a267ea71c5f62fc3080d657e6c881c"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Sales"><file name="OrderController.php" hash="4fd51e973d7a8e380c6e6b53481ea15b"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="45b2f0a28002e6da5502a21f43ee97e4"/><file name="system.xml" hash="9268a057931f1ba23202046e7fc490bb"/></dir><dir name="sql"><dir name="folio3_restorecancelledorder_setup"><file name="install-1.0.0.php" hash="d7fe8f0aae98191605caccc45981ec27"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
